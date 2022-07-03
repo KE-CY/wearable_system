@@ -12,7 +12,7 @@ import { Material } from 'src/entity/material';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'db',
       port: 3306,
       username: 'test',
       password: 'test',
